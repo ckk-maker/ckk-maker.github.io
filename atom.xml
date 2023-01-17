@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-14T12:19:24.013Z</updated>
+  <updated>2022-09-06T13:19:10.422Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2023/01/17/%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2023/01/17/%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-01-17T08:39:33.890Z</published>
+    <updated>2022-09-06T13:19:10.422Z</updated>
+    
+    <content type="html"><![CDATA[<p>[toc]</p><h3 id="一专上课笔记"><a href="#一专上课笔记" class="headerlink" title="一专上课笔记"></a>一专上课笔记</h3><h4 id="编译原理"><a href="#编译原理" class="headerlink" title="编译原理"></a>编译原理</h4><ul><li>8.30</li></ul><p>知识点：</p><ol><li>编译器的作用</li><li>本课程将学习编译器的构造原理与实现技术，以达到以下目标：深刻理解高级语言的设计与实现；有助于解决BUG；为大型程序设计奠定基础</li><li>高级语言的分类：体裁——<strong>过程式（C）</strong>&#x2F;逻辑式（prolog）&#x2F;函数式（）&#x2F;面向对象（java,C++）；执行方式——<strong>顺序执行</strong>&#x2F;并发执行</li><li>各种计算机语言的执行方式：</li><li>编译程序的组成</li></ol><p>注意点：</p><ol><li>编译原理如何正确课后学习</li><li>本课程是编译型程序，还有一种是解释型程序——python</li></ol><ul><li>8.31</li></ul><p>知识点：<br>1-5是前端。6是后端</p><ol><li><p>词法分析：检测识别程序中的单词，形成对应的内部形式，同时检查<strong>单词</strong>是否词法错误</p></li><li><p>语法分析：检查语言各种<strong>结构</strong>是否存在语法错误</p></li><li><p>语义分析：构造符号表，检查程序中的语义错误，挖掘<strong>含义</strong>上的错误</p></li><li><p>中间代码的生成：便于优化代码</p></li><li><p>中间代码的优化：</p></li><li><p>目标代码的生成：汇编语言or机器语言</p></li><li><p>编译程序的组成：</p></li><li><p>编译程序的组织方式：一遍扫描；多遍扫描</p></li><li><p>编译程序的复杂性：</p><ul><li>编译程序是元级程序：输入和输出都是程序</li><li>考虑所有源语言程序</li><li>高级语言和低级语言差异很大，转换很复杂</li></ul></li><li><p>编译程序的设计与实现：</p><ul><li>面临的主要问题：</li><li>开发编译程序的几种途径：预处理法；移植法；<strong>自展法</strong>；工具法（词法分析——LEX；语法分析——YACCf65）</li></ul></li></ol><p>注意点：</p><ol><li>两种组织方式的优缺点</li><li></li></ol><h4 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h4><ul><li>8.31</li></ul><p>知识点：</p><ol><li>数据库系统概述：<ul><li>数据：有价值的数据是信息</li><li>数据库：</li><li>数据库管理系统——DBMS：数据定义、数据操纵、运行管理</li><li>数据库系统——DBS：</li></ul></li></ol><h4 id="演化计算"><a href="#演化计算" class="headerlink" title="演化计算"></a>演化计算</h4><ul><li>9.2</li></ul><p>知识点：</p><ol><li>考核：平时成绩20%+上机实验20%+期末大作业60%</li><li>概述：为解决复杂优化问题提供新思路和手段</li></ol><h4 id="Java-Web网页开发"><a href="#Java-Web网页开发" class="headerlink" title="Java_Web网页开发"></a>Java_Web网页开发</h4><ul><li>9.5</li></ul><p>知识点：</p><ol><li>CSS的选择器：类选择器、ID选择器</li><li>JS的组成：ECMAScript；DOM；BOM </li><li>JS的引入方式：行内——临时测试、内嵌、外链</li><li>Bootstrap框架（前端）：</li></ol><p>作业：</p><ol><li>学习BootStarp框架的表单功能</li><li>js基础用法：表单事件</li></ol><h3 id="二专上课笔记"><a href="#二专上课笔记" class="headerlink" title="二专上课笔记"></a>二专上课笔记</h3><h4 id="公司金融"><a href="#公司金融" class="headerlink" title="公司金融"></a>公司金融</h4><ul><li>8.30</li></ul><p>知识点：</p><ol><li>本课程的上课要求：预习+复习+复习笔记+作业</li><li>本课程的框架（上到第四篇）：重要的——第四章；投资、风险及收益、资金筹措</li><li>概念导入：<ul><li>设立的目标是什么</li><li>怎么赚钱</li><li><strong>如何判断项目的财务可行性</strong></li><li><strong>如何筹措资金</strong></li><li><strong>如何分配利润</strong></li><li>如何管理资金</li></ul></li><li>第一章结构：<ul><li>什么是公司理财</li><li>企业的组织</li><li><strong>现金流</strong>的重要性</li><li>财务管理的目标</li></ul></li><li>什么是公司理财？<br> 选择哪种项目；如何筹措资金——寻找平均资金成本最低的融资方案；如何管理日常财务活动</li><li>企业组织形式：<ul><li>个人独资：成立费用低、过程简单；无限责任、企业生命周期取决于个人</li><li>合伙企业：普通合伙；有限合伙</li><li>公司（股份）：有限责任、易于转让所有权、永续经营；双重纳税</li></ul></li><li><strong>现金流</strong>：<ul><li>现金流量的确认：选择<strong>收付实现制</strong></li><li>现金流量的时点：</li><li>现金流量的风险：</li></ul></li><li>财务管理的目标：现有最大化公司股价</li><li>代理问题：代理关系；如何解决代理问题</li></ol><p>注意点：</p><ol><li>公司理财中讲的公司是投资公司还是包括其它的？</li><li>融资租赁是什么？适用于短期资金筹措</li><li>复习一下资产负债表</li><li>什么是留存现金？</li><li>权责发生制和实收实付制？</li></ol><ul><li>9.6</li></ul><p>知识点：</p><ol><li>资产负债表：<ul><li>存量表</li><li>财务管理人员应该关注的问题：</li><li>市价与成本</li></ul></li><li>利润表：<ul><li>公认会计准则GAAP</li><li><strong>非现金项目</strong>：折旧；递延税款</li><li>时间与成本</li></ul></li></ol><p>注意点：</p><ol><li>流动性的准确定义：无损状态下迅速变现的能力</li><li><strong>折旧</strong>的概念：为了将设备的成本平摊到每年去所产生的概念</li><li>折旧在资产负债表和利润表中的处理：</li><li>现金成本和非现金成本的概念：</li><li>股本溢价&#x3D;&#x3D;资本公积的概念：</li><li>留存收益和累积留存收益的概念：；前$n-1$年的累计留存收益与当年的留存收益之和</li><li>对于企业而言，应选择流动性还是收益性？</li><li>净营运资本：流动资产$-$短期负债</li><li>为什么利润需要交利息？</li><li>股利支付率和留存比率的概念：股利、留存收益占净利润的比重</li></ol><p>作业：</p><ol><li>课堂练习1：资产负债表——P11</li><li>课堂练习2：利润表</li><li>预习任务：资产负债表中项目的变化是现金流入还是流出？</li></ol><p>销售收入：400000<br>销售成本：150000<br>营销成本及管理费用：    70000<br>折旧：     20000<br>营业利润：160000<br>息税前利润：160000<br>利息费用：  35000<br>税前利润：125000<br>应交税费：  40000<br>净利润：    85000<br>    留存收益：<br>    股利：</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;[toc]&lt;/p&gt;
+&lt;h3 id=&quot;一专上课笔记&quot;&gt;&lt;a href=&quot;#一专上课笔记&quot; class=&quot;headerlink&quot; title=&quot;一专上课笔记&quot;&gt;&lt;/a&gt;一专上课笔记&lt;/h3&gt;&lt;h4 id=&quot;编译原理&quot;&gt;&lt;a href=&quot;#编译原理&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>my</title>
