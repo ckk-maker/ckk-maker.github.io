@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-06T13:19:10.422Z</updated>
+  <updated>2023-02-01T07:51:07.160Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2023/02/01/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3/"/>
+    <id>http://example.com/2023/02/01/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3/</id>
+    <published>2023-02-01T08:03:19.588Z</published>
+    <updated>2023-02-01T07:51:07.160Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Next数组"><a href="#Next数组" class="headerlink" title="Next数组"></a>Next数组</h3><p>采用右移一位的格式</p><p><strong>作用</strong>：当模式串在匹配文本串的过程中出错时，给出模式串下次匹配开始的下标（从0开始）。</p><p>每个字符对应的值就是该字符的前面所有字符的<u><strong>最长相同前后缀</strong></u></p><p><u><strong>最长相同前后缀</strong></u>：一个字符串的前k个字符为前缀，后k个字符为后缀，若前缀和后缀相同，且k小于字符串的长度n，那么最大的k就是最长相同前后缀。</p><p>模式串如下：</p><table><thead><tr><th align="center"><strong>a</strong></th><th><strong>a</strong></th><th><strong>a</strong></th><th><strong>b</strong></th><th><strong>a</strong></th><th><strong>a</strong></th><th align="center">a</th><th>f</th><th align="center"></th><th></th></tr></thead><tbody><tr><td align="center">0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>2</td><td align="center">3</td><td>0</td><td align="center">默认</td><td></td></tr><tr><td align="center">-1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td align="center">2</td><td>3</td><td align="center">右移</td><td></td></tr></tbody></table><p>第一个字符a：默认是-1</p><p>第二个字符a：前面所有字符为”a”，故不存在最长相同前后缀，长度是0；</p><p>第三个字符a：前面所有字符为”aa”，故最长相同前后缀为”a”，长度是1；</p><p>第四个字符b：前面所有字符为”aaa”，故最长相同前后缀为”aa”，长度是2；</p><p>以此类推……</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*采用默认格式（没有右移一位）*/</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">getNext</span><span class="params">(<span class="type">int</span>* next, <span class="type">const</span> string&amp; s)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">        next[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="comment">//</span></span><br><span class="line">            <span class="keyword">while</span> (j &gt; <span class="number">0</span> &amp;&amp; s[i] != s[j])</span><br><span class="line">                j = next[j - <span class="number">1</span>];</span><br><span class="line">            <span class="comment">//</span></span><br><span class="line">            <span class="keyword">if</span> (s[i] == s[j]) j++;</span><br><span class="line">            next[i] = j;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Next数组&quot;&gt;&lt;a href=&quot;#Next数组&quot; class=&quot;headerlink&quot; title=&quot;Next数组&quot;&gt;&lt;/a&gt;Next数组&lt;/h3&gt;&lt;p&gt;采用右移一位的格式&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;作用&lt;/strong&gt;：当模式串在匹配文本串的过程中出错时</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
