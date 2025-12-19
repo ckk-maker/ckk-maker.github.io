@@ -1,16 +1,9 @@
 http://example.com/obsidian_posts/%E6%97%A5%E8%AE%B0.html
 http://example.com/2025/12/19/ssh%E6%B5%8B%E8%AF%95/
-http://example.com/_posts/ssh%E6%B5%8B%E8%AF%95.html
 http://example.com/2025/12/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/
-http://example.com/_posts/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.html
 http://example.com/2025/07/13/%E6%8E%A8%E8%8D%90/
-http://example.com/_posts/%E6%8E%A8%E8%8D%90.html
 http://example.com/2023/02/01/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3/
-http://example.com/_posts/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3.html
 http://example.com/2023/02/01/te/
-http://example.com/_posts/te.html
 http://example.com/2023/01/14/my/
-http://example.com/_posts/my.html
 http://example.com/2023/01/14/hello-world/
-http://example.com/_posts/hello-world.html
 http://example.com/
