@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-19T13:04:47.832Z</updated>
+  <updated>2025-12-21T14:03:55.259Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FastAPI项目启动</title>
+    <link href="http://example.com/2025/12/21/FastAPI%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/"/>
+    <id>http://example.com/2025/12/21/FastAPI%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/</id>
+    <published>2025-12-21T13:49:17.000Z</published>
+    <updated>2025-12-21T14:03:55.259Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>Fast API项目，在Pycharm中启动，终端显示<code>Error: Missing argument &#39;APP&#39;.</code>，项目无法正常运行，无法访问</p><h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>检查运行&#x2F;调试配置，几个关键的参数如下：</p><ul><li>python脚本——项目默认的，也就是当前使用的虚拟环境根目录下的python.exe</li><li>script脚本——当前虚拟环境下的uvicorn.exe：<code>D:/conda_envs/calendar_task/Scripts/uvicorn.exe</code></li><li>脚本参数——<code>main:app --reload</code></li><li>工作目录——一般就是项目的根目录</li></ul><p>此次问题是因为脚本参数没有配置，导致uvicorn.exe启动后无法找到<code>app = FastAPI()</code>，继而无法正常运行。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h3&gt;&lt;p&gt;Fast API项目，在Pycharm中启动，终端显示&lt;code&gt;Error: Missing argument &amp;#39;APP&amp;#39;</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="http://example.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
