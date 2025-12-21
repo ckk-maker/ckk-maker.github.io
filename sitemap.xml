@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2025/12/21/FastAPI%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/</loc>
+    <loc>http://example.com/2025/12/21/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3/</loc>
     
     <lastmod>2025-12-21</lastmod>
     
@@ -11,27 +11,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/2025/12/19/obsidian_posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</loc>
+    <loc>http://example.com/2025/12/21/FastAPI%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/</loc>
     
-    <lastmod>2025-12-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2025/12/19/obsidian_posts/%E6%97%A5%E8%AE%B0/</loc>
-    
-    <lastmod>2025-12-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/02/01/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3/</loc>
-    
-    <lastmod>2023-02-01</lastmod>
+    <lastmod>2025-12-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -54,6 +36,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://example.com/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://example.com/tags/python/</loc>
