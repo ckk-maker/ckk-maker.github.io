@@ -29,54 +29,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/2025/12/19/ssh%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2025-12-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2025/12/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2025-12-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2025/07/13/%E6%8E%A8%E8%8D%90/</loc>
-    
-    <lastmod>2025-04-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2023/02/01/KMP%EF%BC%9ANext%E6%95%B0%E7%BB%84%E7%9A%84%E6%B1%82%E8%A7%A3/</loc>
     
     <lastmod>2023-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/02/01/te/</loc>
-    
-    <lastmod>2023-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/01/14/my/</loc>
-    
-    <lastmod>2023-01-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
